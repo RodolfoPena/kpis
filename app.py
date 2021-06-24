@@ -14,7 +14,7 @@ def local_css(file_name):
 
 
 
-@st.cache(ttl=600)
+
 def run_query(query):
     rows = conn.execute(query, headers=1)
     return rows
@@ -31,7 +31,16 @@ def create_dataframe():
             'content': data.content, 
             'type':data.type, 
             'formula': data.formula, 
-            'dependency': data.dependency
+            'dependency': data.dependency,
+            'region': data.region,
+            'area': data.area,
+            'iata_chapter': data.iata_chapter,
+            'frequency': data.frequency,
+            'source': data.source,
+            'target': data.target,
+            'users': data.users,
+            'data_owner': data.data_owner,
+            'clients': data.clients
             }
         df = df.append(row, ignore_index=True)
     return df

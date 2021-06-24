@@ -1,13 +1,14 @@
 .css-1w0ubgf.e1tzin5v2 {
     background-color: rgb(224, 235, 255);
-    height: 100px;
+    height: 150px;
     border-radius: 5px;
     padding: 10px;
+    border-width: 10px;
 }
 
 .css-kbnamk.e1tzin5v2 {
     background-color: rgb(255, 242, 208); /*rgb(216, 237, 213);*/
-    height: 100px;
+    height: 150px;
     border-radius: 5px;
     padding: 10px;
 }
@@ -18,7 +19,7 @@
 }
 
 
-
+/* 
 .st-bh.st-cd.st-bl.st-bm.st-bn.st-bo.st-az.st-b4.st-bp.st-bq.st-br.st-bs.st-bt.st-bu.st-bv.st-bw.st-bx.st-by.st-b2.st-bz {
     display: none;
 }
@@ -34,4 +35,4 @@ input[type="radio"]:checked {
 
 option:checked {
     color: red;
-}
+} */
