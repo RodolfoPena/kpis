@@ -14,7 +14,7 @@ def local_css(file_name):
 
 
 
-
+@st.cache(ttl=300)
 def run_query(query):
     rows = conn.execute(query, headers=1)
     return rows
