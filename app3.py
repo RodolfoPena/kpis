@@ -35,6 +35,7 @@ def app(df):
     colB1, colB2= st.beta_columns(2)
     colB1.subheader('Descripción')
     colB1.write(content)
+    colB2.subheader('Formula')
     colB2.latex(formula)
     colC1, colC2, colC3 = st.beta_columns(3)
     colC1.subheader('Region')
